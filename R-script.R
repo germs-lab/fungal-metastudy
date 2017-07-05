@@ -1,7 +1,7 @@
 
 ### Prepare CSV file for co-occurence analysis
 
-data <- read.table("~/Box Sync/2017/2February/tomas/FUNGAL_METASTUDY_TABLES_SOIL/ITS_EXTRACTED_SAMPLES_VS_SH_TABLE_NORMALISED_SOIL_NOSINGLETONS.txt", header=1, row.name=1)
+data <- read.table("FUNGAL_METASTUDY_TABLES_SOIL/ITS_EXTRACTED_SAMPLES_VS_SH_TABLE_NORMALISED_SOIL_NOSINGLETONS.txt", header=1, row.name=1)
 
 tdata <- t(data)
 fdata <- cbind(trt="none", tdata)
